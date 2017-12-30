@@ -25,25 +25,27 @@
 
         </div>
       </div>
-      <div class="testimonials flex justify-center shadow-md w-full">
-        <h1 class="text-white pt-8">TESTIMONIALS</h1>
+      <div class="testimonials shadow-md w-full">
+        <h1 class="text-white pt-8 text-center">TESTIMONIALS</h1>
       </div>
       <div class="our-work bg-white flex justify-center w-full">
-        <h1 class="text-black pt-8">OUR-WORK</h1>
-        <div class="w-3/4 flex-col" style="height: 500px">
-          <div class="flex w-2/4 works">
-            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+        <div class="w-full">
+          <h1 class="text-black pt-8 text-center mb-8 ">OUR-WORK</h1>
+          <div class="w-3/4 flex-col mr-auto ml-auto" style="height: 500px">
+            <div class="flex w-2/4 works">
+              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+            </div>
+            <div class="flex w-2/4 works">
+              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+            </div>
           </div>
-          <div class="flex w-2/4 works">
-            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-          </div>
-        </div>
+       </div>
 
       </div>
       <div class="products bg-grey-lightest flex justify-center w-full">
@@ -51,23 +53,35 @@
       </div>
     </div>
     <div class="footer bg-white flex flex-wrap w-full">
-      <div class="maps w-1/2 mr-auto border-r-2 border-black">
-        <h1>MAP</h1>
+      <div id="map" class="maps w-1/2 mr-auto border border-black">
       </div>
-      <div class="form w-1/2 ml-auto border-l-2 border-black">
+      <div class="form w-1/2 ml-auto bg-black">
         <h1>FORM</h1>
       </div>
     </div>
   </div>
 </template>
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuQZcrK7X53LcFsrLGB4v08kZaFKxNpM4" async defer></script>
 <script>
+import GoogleMapsLoader from 'google-maps'
+
 export default {
   name: 'Main',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: ''
     }
+  },
+
+  mounted: function () {
+    GoogleMapsLoader.load(function(google) {
+        new google.maps.Map(document.getElementById('map'), {
+            center: {lat:20.6725991, lng: -103.434523},
+            scrollwheel: false,
+            zoom: 15
+            })
+    })
   }
 }
 </script>
@@ -120,10 +134,17 @@ export default {
   .body .products{
     height: 450px;
   }
+
+  .body .map{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background: gray;
+  }
 /*BODY*/
 /*FOOTER*/
   .footer{
-    height: 350px;
+    height: 450px;
   }
 /*FOOTER*/
 </style>
