@@ -11,7 +11,6 @@
       <div class="about bg-grey-lightest w-full">
         <div class="info flex justify-center">
 
-
           <div class="max-w-md w-full lg:flex h-64 shadow-md">
             <div class="h-full lg:w-1/4 flex-none bg-cover text-center overflow-hidden" style="background-image: url('https://i.pinimg.com/736x/16/4f/a9/164fa9b67254a1cdd0dd041f10848f13--vintage-barber-barbers.jpg')">
             </div>
@@ -24,17 +23,31 @@
             </div>
         </div>
 
-
         </div>
       </div>
-      <div class="testimonials flex justify-center w-full">
+      <div class="testimonials flex justify-center shadow-md w-full">
         <h1 class="text-white pt-8">TESTIMONIALS</h1>
       </div>
       <div class="our-work bg-white flex justify-center w-full">
         <h1 class="text-black pt-8">OUR-WORK</h1>
+        <div class="w-3/4 flex-col" style="height: 500px">
+          <div class="flex w-2/4 works">
+            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+          </div>
+          <div class="flex w-2/4 works">
+            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+            <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+          </div>
+        </div>
+
       </div>
-      <div class="products bg-black flex justify-center w-full">
-        <h1 class="text-white pt-8">PRODUCTS</h1>
+      <div class="products bg-grey-lightest flex justify-center w-full">
+        <h1 class="text-black pt-8">PRODUCTS</h1>
       </div>
     </div>
     <div class="footer bg-white flex flex-wrap w-full">
@@ -93,10 +106,15 @@ export default {
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('http://lamodastyle.com/wp-content/uploads/2014/09/Straight-Razor-Shave-Barber-Toledo.jpg') no-repeat center center fixed !important;
     background-size: cover;
     height: 450px;
+    margin-bottom: 10px;
   }
 
   .body .our-work{
-    height: 450px;
+    height: 600px;
+  }
+
+  .body .works{
+    height: 50%;
   }
 
   .body .products{
