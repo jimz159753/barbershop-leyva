@@ -2524,6 +2524,10 @@ globjoin@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/globjoin/-/globjoin-0.1.4.tgz#2f4494ac8919e3767c5cbb691e9f463324285d43"
 
+google-maps@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/google-maps/-/google-maps-3.2.1.tgz#c0758f2b175a4a8d110c1abb1fc4cc38c1176e06"
+
 got@^6.7.1:
   version "6.7.1"
   resolved "https://registry.yarnpkg.com/got/-/got-6.7.1.tgz#240cd05785a9a18e561dc1b44b41c763ef1e8db0"
@@ -3082,6 +3086,10 @@ isstream@~0.1.2:
 js-base64@^2.1.9:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.0.tgz#9e566fee624751a1d720c966cd6226d29d4025aa"
+
+js-marker-clusterer@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/js-marker-clusterer/-/js-marker-clusterer-1.0.0.tgz#c94be85ae8896819e51c131f891dd2b55558dd17"
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
@@ -5735,6 +5743,16 @@ vm-browserify@0.0.4:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
+
+vue-awesome@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/vue-awesome/-/vue-awesome-2.3.4.tgz#a8b06a21dd95a5787e108561be89e216fd9a78e6"
+
+vue-google-maps@^0.1.21:
+  version "0.1.21"
+  resolved "https://registry.yarnpkg.com/vue-google-maps/-/vue-google-maps-0.1.21.tgz#19b6fa3df39ff293dca1cf3925f4f287d0f95bac"
+  dependencies:
+    js-marker-clusterer "^1.0.0"
 
 vue-hot-reload-api@^2.2.0:
   version "2.2.4"
