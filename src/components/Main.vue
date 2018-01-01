@@ -45,9 +45,58 @@
           </div>
        </div>
       </div>
-      <div class="products bg-grey-lighter flex justify-center w-full">
-        <h1 class="text-black pt-8">PRODUCTS</h1>
-      </div>
+      <div class="products bg-grey-lighter w-full">
+        <h1 class="text-black pt-8 pb-8 text-center">PRODUCTS</h1>
+
+        <div class="w-full pt-8 flex justify-center justify-around items-center">
+          <div class="card max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <p class="text-grey-darker text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div class="px-6 py-4">
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#winter</span>
+            </div>
+          </div>
+
+          <div class="card max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <p class="text-grey-darker text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div class="px-6 py-4">
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#winter</span>
+            </div>
+          </div>
+
+          <div class="card max-w-sm rounded overflow-hidden shadow-lg">
+            <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+              <p class="text-grey-darker text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+              </p>
+            </div>
+            <div class="px-6 py-4">
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#winter</span>
+            </div>
+          </div>
+
+        </div>
+     </div>
+      <!--end -->
     </div>
     <div class="footer bg-white flex flex-wrap w-full">
       <div id="map" class="maps w-1/2 mr-auto border border-black">
@@ -139,15 +188,20 @@ export default {
     height: 50%;
   }
 
-  .body .products{
-    height: 450px;
-  }
-
   .body .map{
     width: 800px;
     height: 600px;
     margin: 0 auto;
     background: gray;
+  }
+
+  .body .products{
+      height: 450px;
+  }
+
+  .body .card{
+    height: 250px;
+    width: 250px;
   }
 /*BODY*/
 /*FOOTER*/
