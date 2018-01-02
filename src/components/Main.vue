@@ -1,16 +1,14 @@
 <template>
   <div>
-    <div class="header shadow-md w-full">
-      <button type="button" class="pin-l absolute bg-yellow-darker text-white font-semibold hover:text-black py-2 px-4">
-        |||
+    <div class="header w-full">
+      <button type="button" class="pin-l absolute  text-white font-semibold hover:text-yellow-darker py-2 px-4">
+        <icon name="bars" scale="2"></icon>
       </button>
-      <button type="button h-btn" class="left-btn absolute bg-yellow-darker text-white font-semibold hover:text-black py-2 px-4">left-button</button>
-      <button type="button h-btn" class="pin-r absolute bg-yellow-darker hover:bg-orange-ligth text-white font-semibold hover:text-black py-2 px-4">right-button</button>
     </div>
     <div class="body">
       <div class="about bg-grey-lighter w-full">
         <div class="info flex justify-center">
-          <div class="max-w-md w-full lg:flex h-64 shadow-md">
+          <div class="max-w-md w-full lg:flex h-64 shadow-lg">
             <div class="h-full lg:w-1/4 flex-none bg-cover text-center overflow-hidden" style="background-image: url('https://i.pinimg.com/736x/16/4f/a9/164fa9b67254a1cdd0dd041f10848f13--vintage-barber-barbers.jpg')">
             </div>
             <div class="h-full lg:w-1/4 flex-none bg-cover text-center overflow-hidden mx-3" style="background-image: url('https://i.pinimg.com/736x/16/4f/a9/164fa9b67254a1cdd0dd041f10848f13--vintage-barber-barbers.jpg')">
@@ -18,13 +16,13 @@
             <div class="mb-8">
               <div class="text-black font-bold text-xl mb-2 ml-6"><h1>About us</h1></div>
               <p class="text-grey-darker text-base ml-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
-              <button type="button h-btn" class="left-btn bg-yellow-darker hover:bg-orange-ligth text-white font-semibold hover:text-black py-2 px-4 ml-6 mt-8">View More</button>
+              <button type="button h-btn" class="left-btn bg-yellow-darker hover:bg-orange-ligth text-white font-semibold hover:text-black py-3 px-3 ml-6 mt-8">View More</button>
             </div>
         </div>
         </div>
       </div>
       <div class="testimonials shadow-md w-full">
-        <h1 class="text-white pt-8 text-center">TESTIMONIALS</h1>
+        <h1 class="text-white pt-8 text-center">SERVICES</h1>
       </div>
       <div class="our-work bg-grey-lightest flex justify-center w-full">
         <div class="w-full">
@@ -49,13 +47,30 @@
         <h1 class="text-black pt-8 pb-8 text-center">PRODUCTS</h1>
 
         <div class="w-full pt-8 flex justify-center justify-around items-center">
-          <div class="card max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
+          <div class="card max-w-sm overflow-hidden shadow-lg">
+            <img class="w-full" style="max-height: 150px" src="https://barberblades.co.uk/image/cache/data/products/Dear%20Barber/Shave%20Soap%20Temporary-600x600.jpg">
+            <div class="font-bold pt-2 bg-grey-light text-xl mb-2 text-center">The Coldest Sunset
+            <div class="px-6 py-4 flex justify-center">
+              <button class="bg-transparent hover:bg-black text-grey-dark font-semibold hover:text-white py-1 px-3 border-2 border-grey-darker  hover:border-transparent">
+                View
+              </button>
+            </div>
+          </div>
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-              <p class="text-grey-darker text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-              </p>
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
+              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#winter</span>
+            </div>
+          </div>
+
+          <div class="card max-w-sm overflow-hidden shadow-lg">
+            <img class="w-full" style="max-height: 150px" src="http://www.rightsoap.com/image/cache/data/16%20Shaving/shaving%20soap%20first-500x500.jpg" alt="Sunset in the mountains">
+            <div class="font-bold pt-2 bg-grey-light text-xl mb-2 text-center">The Coldest Sunset
+              <div class="px-6 py-4  flex justify-center">
+                <button class="bg-transparent hover:bg-black text-grey-dark font-semibold hover:text-white py-1 px-3 border-2 border-grey-darker  hover:border-transparent">
+                  View
+                </button>
+              </div>
             </div>
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
@@ -64,29 +79,15 @@
             </div>
           </div>
 
-          <div class="card max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-              <p class="text-grey-darker text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-              </p>
-            </div>
-            <div class="px-6 py-4">
-              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
-              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
-              <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#winter</span>
+          <div class="card max-w-sm overflow-hidden shadow-lg">
+            <img class="w-full" style="max-height: 150px" src="https://images-na.ssl-images-amazon.com/images/I/61VIMkziAxL._SL1000_.jpg" alt="Sunset in the mountains">
+            <div class="font-bold pt-2 bg-grey-light text-xl mb-2 text-center">The Coldest Sunset
+            <div class="px-6 py-4 flex justify-center">
+              <button class="bg-transparent hover:bg-black text-grey-dark font-semibold hover:text-white py-1 px-3 border-2 border-grey-darker  hover:border-transparent">
+                View
+              </button>
             </div>
           </div>
-
-          <div class="card max-w-sm rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-              <p class="text-grey-darker text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-              </p>
-            </div>
             <div class="px-6 py-4">
               <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#photography</span>
               <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2">#travel</span>
@@ -108,9 +109,9 @@
           <p class="text-white pb-4"><icon name="address-book" class="mr-2" scale="1"></icon> 331234567</p>
           <p class="text-white pb-4"><icon name="envelope"  class="mr-2" scale="1"></icon> barber@gmail.com</p>
           <div class="w-full h-24 flex items-center justify-center pt-8">
-            <p class="text-white pr-8 rounded-full"><icon name="facebook" scale="2"></icon></p>
-            <p class="text-white pr-8 rounded-full"><icon name="instagram" scale="2"></icon></p>
-            <p class="text-white pr-8 rounded-full"><icon name="youtube" scale="2"></icon></p>
+            <p class="text-white pr-8"><icon name="facebook" scale="2"></icon></p>
+            <p class="text-white pr-8"><icon name="instagram" scale="2"></icon></p>
+            <p class="text-white pr-8"><icon name="youtube" scale="2"></icon></p>
           </div>
         </div>
       </div>
@@ -152,11 +153,6 @@ export default {
     height: 600px;
     margin-bottom: 10px;
   }
-
-  .left-btn{
-    left: 80px;
-  }
-
 /*HEADER*/
 /*BODY*/
   .body{
