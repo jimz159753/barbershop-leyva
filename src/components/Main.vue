@@ -29,16 +29,16 @@
           <h1 class="text-black pt-8 text-center mb-8 ">OUR-WORK</h1>
           <div class="w-3/4 flex-col mr-auto ml-auto" style="height: 500px">
             <div class="flex w-2/4 works">
-              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+              <div class="w-1/4" style="background: url('https://i.wpimg.pl/500x334/d.wpimg.pl/1423390641-1252502135/fryzura.jpg)"></div>
+              <div class="w-1/4" style="background: url('http://fryzury.qever.com/wp-content/uploads/2017/01/elegancka-fryzura-meska-zaczes.jpg')"></div>
+              <div class="w-1/4" style="background: url('https://i.wpimg.pl/500x334/d.wpimg.pl/1423390641-1252502135/fryzura.jpg)"></div>
+              <div class="w-1/4" style="background: url('http://fryzury.qever.com/wp-content/uploads/2017/01/elegancka-fryzura-meska-zaczes.jpg')"></div>
             </div>
             <div class="flex w-2/4 works">
-              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
-              <div class="w-1/4" style="background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpP1BXQwO57bt4dEzCVZ8Dzjp87bgr0WVnh8d2MnISQvAx0Ti')"></div>
+              <div class="w-1/4" style="background: url('https://i.wpimg.pl/500x334/d.wpimg.pl/1423390641-1252502135/fryzura.jpg)"></div>
+              <div class="w-1/4" style="background: url('http://fryzury.qever.com/wp-content/uploads/2017/01/elegancka-fryzura-meska-zaczes.jpg')"></div>
+              <div class="w-1/4" style="background: url('https://i.wpimg.pl/500x334/d.wpimg.pl/1423390641-1252502135/fryzura.jpg)"></div>
+              <div class="w-1/4" style="background: url('http://fryzury.qever.com/wp-content/uploads/2017/01/elegancka-fryzura-meska-zaczes.jpg')"></div>
             </div>
           </div>
        </div>
@@ -48,7 +48,7 @@
 
         <div class="w-full pt-8 flex justify-center justify-around items-center">
           <div class="card max-w-sm overflow-hidden shadow-lg">
-            <img class="w-full" style="max-height: 150px" src="https://barberblades.co.uk/image/cache/data/products/Dear%20Barber/Shave%20Soap%20Temporary-600x600.jpg">
+            <img class="w-full" style="max-height: 150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxHNkS4C5bcDrw2JnC5kKylJByoXYU_lXc3wfklwhr31G5EEad">
             <div class="font-bold pt-2 bg-grey-light text-xl mb-2 text-center">The Coldest Sunset
             <div class="px-6 py-4 flex justify-center">
               <button class="bg-transparent hover:bg-black text-grey-dark font-semibold hover:text-white py-1 px-3 border-2 border-grey-darker  hover:border-transparent">
@@ -64,7 +64,7 @@
           </div>
 
           <div class="card max-w-sm overflow-hidden shadow-lg">
-            <img class="w-full" style="max-height: 150px" src="http://www.rightsoap.com/image/cache/data/16%20Shaving/shaving%20soap%20first-500x500.jpg" alt="Sunset in the mountains">
+            <img class="w-full" style="max-height: 150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQqxFvTA7XE6pzVaMAY9CMVzTtVLUMLS7eWhwyDz-mwZ0ZeFAx" alt="Sunset in the mountains">
             <div class="font-bold pt-2 bg-grey-light text-xl mb-2 text-center">The Coldest Sunset
               <div class="px-6 py-4  flex justify-center">
                 <button class="bg-transparent hover:bg-black text-grey-dark font-semibold hover:text-white py-1 px-3 border-2 border-grey-darker  hover:border-transparent">
